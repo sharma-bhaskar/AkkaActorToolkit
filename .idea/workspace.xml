@@ -1,242 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bdab6eae-0c5b-474b-8fdc-91d662d078fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ActorFaultTolerance/ActorLifeCycle.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ActorFaultTolerance/StartingStoppingActor.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ActorFaultTolerance/SupervisionSpec.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/ActorSystemTesting/BasicSpec.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Actors/AkkaConfig.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Actors/ChangingActorBehav.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Actors/ChildActor.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/Actors/ChildActorExercis.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/AkkaInfra/TimersSchedulers.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/playground/Maine.scala" afterDir="false" />
+    <list default="true" id="40b0b415-d67f-4757-b659-b36a5476d10b" name="Changes" comment="Change app conf">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_2_13_2_8_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_actor_typed_2_13_2_8_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_slf4j_2_13_2_8_8_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_akka_akka_testkit_2_13_2_6_21_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__com_typesafe_config_1_4_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_java8_compat_2_13_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_modules_scala_xml_2_13_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_12_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_reflect_2_13_12_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalactic_scalactic_2_13_3_2_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_2_13_3_2_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_compatible_3_2_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_core_2_13_3_2_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_diagrams_2_13_3_2_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_featurespec_2_13_3_2_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_flatspec_2_13_3_2_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_freespec_2_13_3_2_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_funspec_2_13_3_2_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_funsuite_2_13_3_2_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_matchers_core_2_13_3_2_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_mustmatchers_2_13_3_2_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_propspec_2_13_3_2_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_refspec_2_13_3_2_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_shouldmatchers_2_13_3_2_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scalatest_scalatest_wordspec_2_13_3_2_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_slf4j_slf4j_api_1_7_36_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/AkkaInterview/Demo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/AkkaInterview/RatingAggregator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/TestInterview/TestRating.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/AkkaActorToolkit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/AkkaActorToolkit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/akkaactortoolkit-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/akkaactortoolkit-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/Actors/ActorCap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/Actors/ActorCap.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ActorFaultTolerance/SupervisionSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/SupervisionSpec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/ActorSystemTesting/BasicSpec.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scala/BasicSpec.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/AkkaInfra/TimersSchedulers.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/AkkaInfra/TimersSchedulers.scala" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/project/project/target/" />
-    <ignored path="$PROJECT_DIR$/project/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-516217624">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="conf" value="2" />
-          <entry key="java" value="2" />
-          <entry key="sbt" value="1" />
-          <entry key="scala" value="18" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="HOCON" value="2" />
-          <entry key="JAVA" value="2" />
-          <entry key="Scala" value="18" />
-          <entry key="sbt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="conf" value="24" />
-          <entry key="java" value="873" />
-          <entry key="sbt" value="16" />
-          <entry key="scala" value="12492" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="HOCON" value="24" />
-          <entry key="JAVA" value="873" />
-          <entry key="Scala" value="12492" />
-          <entry key="sbt" value="16" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ActorFaultTolerance/ActorLifeCycle.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ActorFaultTolerance/SupervisionSpec.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-221">
-              <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
-              <folding>
-                <element signature="e#29#99#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/AkkaInfra/TimersSchedulers.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-              <folding>
-                <element signature="e#19#99#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.5.13-sources.jar!/akka/actor/TypedActor.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="337" column="8" selection-start-line="337" selection-start-column="8" selection-end-line="337" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="AkkaActorToolkit" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/playground/Testing.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Actors/ActorStartIntro.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Actors/ActorCap.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Actors/ChangingActorBehav.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Actors/ChildActor.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Actors/ChildActorExercis.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Actors/ActorLogging.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Actors/ActorLoggings.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/Actors/dummyConfig.conf" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.conf" />
-        <option value="$PROJECT_DIR$/src/main/scala/Actors/AkkaConfig.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ActorSystemTesting/BasicSpec.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ActorFaultTolerance/StartingStoppingActor.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/playground/Maine.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ActorFaultTolerance/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/scala/ActorFaultTolerance/ActorLifeCycle.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ActorFaultTolerance/SupervisionSpec.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/AkkaInfra/TimersSchedulers.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/AkkaInfra/Output.java" />
-      </list>
-    </option>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="y3sk8nyv" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="83" />
-    <option name="y" value="30" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AkkaActorToolkit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AkkaActorToolkit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AkkaActorToolkit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AkkaActorToolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AkkaActorToolkit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AkkaActorToolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AkkaActorToolkit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AkkaActorToolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AkkaActorToolkit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AkkaActorToolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="AkkaInfra" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/PersonalData/AkkaActorToolkit/src/main/scala/ActorSystemTesting/BasicSpec.scala" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562580804722" />
+  <component name="ProjectId" id="2Qt2ULBQguyS6xNkjzWj3L0wvGu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Output">
-    <configuration name="Output" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AkkaInfra.Output" />
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="AkkaInterview.Demo" />
       <module name="AkkaActorToolkit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AkkaInfra.*" />
+          <option name="PATTERN" value="AkkaInterview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -244,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TimersSchedulers" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="AkkaInfra.TimersSchedulers" />
+    <configuration name="TestRating" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TestInterview.TestRating" />
       <module name="AkkaActorToolkit" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="AkkaInfra.*" />
+          <option name="PATTERN" value="TestInterview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -257,391 +141,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupervisionSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="AkkaActorToolkit" />
-      <setting name="path" value="ActorFaultTolerance.SupervisionSpec" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Class" />
-      <setting name="path" value="ActorFaultTolerance.SupervisionSpec" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SupervisionSpec.An all-for-one supervisor should apply the all-for-one strategy" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="AkkaActorToolkit" />
-      <setting name="path" value="ActorFaultTolerance.SupervisionSpec" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="ActorFaultTolerance.SupervisionSpec" />
-      <setting name="testName" value="An all-for-one supervisor should apply the all-for-one strategy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SupervisionSpec.escalate an error when it doesn't know what to do" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <module name="AkkaActorToolkit" />
-      <setting name="path" value="ActorFaultTolerance.SupervisionSpec" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="showProgressMessages" value="true" />
-      <setting name="useSbt" value="false" />
-      <setting name="useUiWithSbt" value="false" />
-      <envs />
-      <setting name="testKind" value="Test name" />
-      <setting name="path" value="ActorFaultTolerance.SupervisionSpec" />
-      <setting name="testName" value="escalate an error when it doesn't know what to do" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="ScalaTest.SupervisionSpec.escalate an error when it doesn't know what to do" />
-      <item itemvalue="ScalaTest.SupervisionSpec.An all-for-one supervisor should apply the all-for-one strategy" />
-      <item itemvalue="ScalaTest.SupervisionSpec" />
-      <item itemvalue="Application.TimersSchedulers" />
-      <item itemvalue="Application.Output" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Output" />
-        <item itemvalue="Application.TimersSchedulers" />
-        <item itemvalue="ScalaTest.SupervisionSpec" />
-        <item itemvalue="ScalaTest.SupervisionSpec.An all-for-one supervisor should apply the all-for-one strategy" />
-        <item itemvalue="ScalaTest.SupervisionSpec.escalate an error when it doesn't know what to do" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.TestRating" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SbtLocalSettings">
-    <option name="availableProjects">
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="40b0b415-d67f-4757-b659-b36a5476d10b" name="Changes" comment="" />
+      <created>1686157953427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686157953427</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Change app conf">
+      <created>1686158085835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686158085835</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
       <map>
-        <entry>
-          <key>
-            <ExternalProjectPojo>
-              <option name="name" value="AkkaActorToolkit" />
-              <option name="path" value="$PROJECT_DIR$" />
-            </ExternalProjectPojo>
-          </key>
+        <entry key="MAIN">
           <value>
-            <list>
-              <ExternalProjectPojo>
-                <option name="name" value="akkaactortoolkit [file:/C:/PersonalData/AkkaActorToolkit/]" />
-                <option name="path" value="$PROJECT_DIR$" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value="akkaactortoolkit-build [file:/C:/PersonalData/AkkaActorToolkit/]" />
-                <option name="path" value="$PROJECT_DIR$/project" />
-              </ExternalProjectPojo>
-            </list>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-    <option name="modificationStamps">
-      <map>
-        <entry key="$PROJECT_DIR$/build.sbt" value="28202004" />
-        <entry key="$PROJECT_DIR$/project/build.properties" value="2567920773" />
-      </map>
-    </option>
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../DataStructureUsingScala" value="PREVIEW" />
-        <entry key="C:/Rogers_Project/SampleProducer Sprint 5/SampleProducer" value="PREVIEW" />
-        <entry key="C:/Rogers_Project/dal-akka-stream/ogg-stream-processor" value="PREVIEW" />
-        <entry key="C:/ScalaUsingDS/DataStructureUsingScala" value="PREVIEW" />
-        <entry key="C:/ScalaUsingDS/SparkUsingScala/PlayingWithSpark" value="PREVIEW" />
-        <entry key="$USER_HOME$/Desktop/SampleProducer" value="PREVIEW" />
-        <entry key="$USER_HOME$/Desktop/ogg-stream-processor" value="PREVIEW" />
-      </map>
-    </option>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="bdab6eae-0c5b-474b-8fdc-91d662d078fd" name="Default Changelist" comment="" />
-      <created>1561706585223</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1561706585223</updated>
-    </task>
-    <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="BasicSpec_The_thing_start_testing_should_do_this - 2019.07.02 at 12h 19m 37s.xml">
-      <configuration name="BasicSpec.The thing start testing should do this" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="SupervisionSpec_A_supervisior_should_resume_its_child_in_case_of_minor_fault - 2019.07.04 at 14h 55m 07s.xml">
-      <configuration name="SupervisionSpec.A supervisior should resume its child in case of minor fault" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="SupervisionSpec_restart_its_child_in_case_of_an_empty_sentence - 2019.07.04 at 14h 59m 35s.xml">
-      <configuration name="SupervisionSpec.restart its child in case of an empty sentence" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="SupervisionSpec_terminate_its_child_in_case_of_a_major_error - 2019.07.04 at 15h 02m 17s.xml">
-      <configuration name="SupervisionSpec.terminate its child in case of a major error" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="SupervisionSpec_escalate_an_error_when_it_doesn't_know_what_to_do - 2019.07.04 at 15h 03m 21s.xml">
-      <configuration name="SupervisionSpec.escalate an error when it doesn't know what to do" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="SupervisionSpec_An_all-for-one_supervisor_should_apply_the_all-for-one_strategy - 2019.07.04 at 15h 05m 14s.xml">
-      <configuration name="SupervisionSpec.An all-for-one supervisor should apply the all-for-one strategy" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="SupervisionSpec - 2019.07.04 at 15h 05m 39s.xml">
-      <configuration name="SupervisionSpec" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Learn" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32242227" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="SonarLint" order="11" />
-      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="13" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="SonarQube" order="14" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="sbt" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.5.13-sources.jar!/akka/actor/Actor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="453" column="26" selection-start-line="453" selection-start-column="26" selection-end-line="453" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Actors/ActorStartIntro.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Actors/ActorCap.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Actors/ChangingActorBehav.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="172" column="51" selection-start-line="172" selection-start-column="51" selection-end-line="172" selection-end-column="51" />
-          <folding>
-            <element signature="e#16#62#0" expanded="true" />
-            <element signature="e#246#258#0" expanded="true" />
-            <element signature="e#717#729#0" expanded="true" />
-            <element signature="e#812#824#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/playground/Testing.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="86" column="112" selection-start-line="86" selection-start-column="112" selection-end-line="86" selection-end-column="112" />
-          <folding>
-            <element signature="e#20#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/playground/Maine.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Actors/ChildActor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1717">
-          <caret line="101" column="17" selection-start-line="101" selection-start-column="17" selection-end-line="101" selection-end-column="17" />
-          <folding>
-            <element signature="e#16#72#0" expanded="true" />
-            <element signature="e#1290#1315#0" expanded="true" />
-            <element signature="e#2443#2468#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Actors/ChildActorExercis.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="68" column="17" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Actors/ActorLoggings.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#16#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Actors/AkkaConfig.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
-          <folding>
-            <element signature="e#16#75#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ActorSystemTesting/BasicSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="e#28#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ActorFaultTolerance/StartingStoppingActor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
-          <folding>
-            <element signature="e#29#95#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/Actors/dummyConfig.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="15" selection-start-line="4" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ActorFaultTolerance/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ActorFaultTolerance/ActorLifeCycle.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/srcs/akka-actor_2.11-2.5.13-sources.jar!/akka/actor/TypedActor.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="337" column="8" selection-start-line="337" selection-start-column="8" selection-end-line="337" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ActorFaultTolerance/SupervisionSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
-          <folding>
-            <element signature="e#29#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/AkkaInfra/Output.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/AkkaInfra/TimersSchedulers.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding>
-            <element signature="e#19#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Change app conf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change app conf" />
   </component>
 </project>

@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/AkkaActorToolkit.iml" filepath="$PROJECT_DIR$/.idea/modules/AkkaActorToolkit.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akkaactortoolkit-build.iml" filepath="$PROJECT_DIR$/.idea/modules/akkaactortoolkit-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AkkaActorToolkit-build.iml" filepath="$PROJECT_DIR$/.idea/modules/AkkaActorToolkit-build.iml" />
     </modules>
   </component>
 </project>
